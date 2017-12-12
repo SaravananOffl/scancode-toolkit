@@ -214,6 +214,7 @@ setup(
             'spdx-rdf = formattedcode.format_spdx:write_spdx_rdf',
             'csv = formattedcode.format_csv:write_csv',
             'jsonlines = formattedcode.format_jsonlines:write_jsonlines',
+            'abcd=formattedcode.format_abcd:write_abcd',
         ],
 
         # scancode_post_scan is an entry point for post_scan_plugins.
